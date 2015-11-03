@@ -16,10 +16,11 @@ Create a watchkit app with the following features on the watch.
 [here is the link to the image generator](http://hmaidasani.github.io/RadialChartImageGenerator/)  
 * Display a foreground picker that shows a numerical sequence.  
 * Coordinate the background with the picker foreground  
-* When the user chooses a picker value, show the spelled out value in a label. The text of the label should use a custom font.   
+* When the user chooses a picker value, show the spelled out numeric value in a label. The text of the label should use a custom font.   
 
-> let formatter = NSNumberFormatter()  
-   formatter.numberStyle = NSNumberFormatterStyle. SpellOutStyle  
-   println("\(identifier) \(formatter.stringFromNumber(1234.5678))")
+> Example:  1234 becomes:  
+> One Thousand Two Hundred Thirty Four.  
+> There is an easy way to do this in Swift  
+> And no, I am not going to tell you what it is.  
    
 Fork this project and then create an IOS Watchkit App on your Mac.  Finish the project, push it, and create a pull request.  
