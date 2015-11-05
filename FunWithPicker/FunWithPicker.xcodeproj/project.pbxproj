@@ -1,0 +1,553 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BEC3B76E1BEBED6D00547187 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC3B76D1BEBED6D00547187 /* AppDelegate.swift */; };
+		BEC3B7701BEBED6D00547187 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC3B76F1BEBED6D00547187 /* ViewController.swift */; };
+		BEC3B7731BEBED6D00547187 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEC3B7711BEBED6D00547187 /* Main.storyboard */; };
+		BEC3B7751BEBED6E00547187 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEC3B7741BEBED6E00547187 /* Assets.xcassets */; };
+		BEC3B7781BEBED6E00547187 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEC3B7761BEBED6E00547187 /* LaunchScreen.storyboard */; };
+		BEC3B77D1BEBED6E00547187 /* FunWithPicker WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = BEC3B77C1BEBED6E00547187 /* FunWithPicker WatchKit App.app */; };
+		BEC3B7831BEBED6E00547187 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEC3B7811BEBED6E00547187 /* Interface.storyboard */; };
+		BEC3B7851BEBED6E00547187 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEC3B7841BEBED6E00547187 /* Assets.xcassets */; };
+		BEC3B78C1BEBED6E00547187 /* FunWithPicker WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = BEC3B78B1BEBED6E00547187 /* FunWithPicker WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		BEC3B7911BEBED6E00547187 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC3B7901BEBED6E00547187 /* InterfaceController.swift */; };
+		BEC3B7931BEBED6E00547187 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC3B7921BEBED6E00547187 /* ExtensionDelegate.swift */; };
+		BEC3B7951BEBED6E00547187 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEC3B7941BEBED6E00547187 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BEC3B77E1BEBED6E00547187 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BEC3B7621BEBED6D00547187 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BEC3B77B1BEBED6E00547187;
+			remoteInfo = "FunWithPicker WatchKit App";
+		};
+		BEC3B78D1BEBED6E00547187 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BEC3B7621BEBED6D00547187 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BEC3B78A1BEBED6E00547187;
+			remoteInfo = "FunWithPicker WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BEC3B79C1BEBED6E00547187 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				BEC3B78C1BEBED6E00547187 /* FunWithPicker WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEC3B7A01BEBED6E00547187 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				BEC3B77D1BEBED6E00547187 /* FunWithPicker WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BEC3B76A1BEBED6D00547187 /* FunWithPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunWithPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEC3B76D1BEBED6D00547187 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BEC3B76F1BEBED6D00547187 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BEC3B7721BEBED6D00547187 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BEC3B7741BEBED6E00547187 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BEC3B7771BEBED6E00547187 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BEC3B7791BEBED6E00547187 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEC3B77C1BEBED6E00547187 /* FunWithPicker WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FunWithPicker WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEC3B7821BEBED6E00547187 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		BEC3B7841BEBED6E00547187 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BEC3B7861BEBED6E00547187 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEC3B78B1BEBED6E00547187 /* FunWithPicker WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "FunWithPicker WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEC3B7901BEBED6E00547187 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		BEC3B7921BEBED6E00547187 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		BEC3B7941BEBED6E00547187 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BEC3B7961BEBED6E00547187 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BEC3B7671BEBED6D00547187 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEC3B7881BEBED6E00547187 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BEC3B7611BEBED6D00547187 = {
+			isa = PBXGroup;
+			children = (
+				BEC3B76C1BEBED6D00547187 /* FunWithPicker */,
+				BEC3B7801BEBED6E00547187 /* FunWithPicker WatchKit App */,
+				BEC3B78F1BEBED6E00547187 /* FunWithPicker WatchKit Extension */,
+				BEC3B76B1BEBED6D00547187 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BEC3B76B1BEBED6D00547187 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BEC3B76A1BEBED6D00547187 /* FunWithPicker.app */,
+				BEC3B77C1BEBED6E00547187 /* FunWithPicker WatchKit App.app */,
+				BEC3B78B1BEBED6E00547187 /* FunWithPicker WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BEC3B76C1BEBED6D00547187 /* FunWithPicker */ = {
+			isa = PBXGroup;
+			children = (
+				BEC3B76D1BEBED6D00547187 /* AppDelegate.swift */,
+				BEC3B76F1BEBED6D00547187 /* ViewController.swift */,
+				BEC3B7711BEBED6D00547187 /* Main.storyboard */,
+				BEC3B7741BEBED6E00547187 /* Assets.xcassets */,
+				BEC3B7761BEBED6E00547187 /* LaunchScreen.storyboard */,
+				BEC3B7791BEBED6E00547187 /* Info.plist */,
+			);
+			path = FunWithPicker;
+			sourceTree = "<group>";
+		};
+		BEC3B7801BEBED6E00547187 /* FunWithPicker WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				BEC3B7811BEBED6E00547187 /* Interface.storyboard */,
+				BEC3B7841BEBED6E00547187 /* Assets.xcassets */,
+				BEC3B7861BEBED6E00547187 /* Info.plist */,
+			);
+			path = "FunWithPicker WatchKit App";
+			sourceTree = "<group>";
+		};
+		BEC3B78F1BEBED6E00547187 /* FunWithPicker WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				BEC3B7901BEBED6E00547187 /* InterfaceController.swift */,
+				BEC3B7921BEBED6E00547187 /* ExtensionDelegate.swift */,
+				BEC3B7941BEBED6E00547187 /* Assets.xcassets */,
+				BEC3B7961BEBED6E00547187 /* Info.plist */,
+			);
+			path = "FunWithPicker WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BEC3B7691BEBED6D00547187 /* FunWithPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEC3B7A11BEBED6E00547187 /* Build configuration list for PBXNativeTarget "FunWithPicker" */;
+			buildPhases = (
+				BEC3B7661BEBED6D00547187 /* Sources */,
+				BEC3B7671BEBED6D00547187 /* Frameworks */,
+				BEC3B7681BEBED6D00547187 /* Resources */,
+				BEC3B7A01BEBED6E00547187 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BEC3B77F1BEBED6E00547187 /* PBXTargetDependency */,
+			);
+			name = FunWithPicker;
+			productName = FunWithPicker;
+			productReference = BEC3B76A1BEBED6D00547187 /* FunWithPicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BEC3B77B1BEBED6E00547187 /* FunWithPicker WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEC3B79D1BEBED6E00547187 /* Build configuration list for PBXNativeTarget "FunWithPicker WatchKit App" */;
+			buildPhases = (
+				BEC3B77A1BEBED6E00547187 /* Resources */,
+				BEC3B79C1BEBED6E00547187 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BEC3B78E1BEBED6E00547187 /* PBXTargetDependency */,
+			);
+			name = "FunWithPicker WatchKit App";
+			productName = "FunWithPicker WatchKit App";
+			productReference = BEC3B77C1BEBED6E00547187 /* FunWithPicker WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		BEC3B78A1BEBED6E00547187 /* FunWithPicker WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEC3B7991BEBED6E00547187 /* Build configuration list for PBXNativeTarget "FunWithPicker WatchKit Extension" */;
+			buildPhases = (
+				BEC3B7871BEBED6E00547187 /* Sources */,
+				BEC3B7881BEBED6E00547187 /* Frameworks */,
+				BEC3B7891BEBED6E00547187 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FunWithPicker WatchKit Extension";
+			productName = "FunWithPicker WatchKit Extension";
+			productReference = BEC3B78B1BEBED6E00547187 /* FunWithPicker WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BEC3B7621BEBED6D00547187 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Brent Zerbe";
+				TargetAttributes = {
+					BEC3B7691BEBED6D00547187 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = R2A3X86W66;
+					};
+					BEC3B77B1BEBED6E00547187 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = R2A3X86W66;
+					};
+					BEC3B78A1BEBED6E00547187 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = R2A3X86W66;
+					};
+				};
+			};
+			buildConfigurationList = BEC3B7651BEBED6D00547187 /* Build configuration list for PBXProject "FunWithPicker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BEC3B7611BEBED6D00547187;
+			productRefGroup = BEC3B76B1BEBED6D00547187 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BEC3B7691BEBED6D00547187 /* FunWithPicker */,
+				BEC3B77B1BEBED6E00547187 /* FunWithPicker WatchKit App */,
+				BEC3B78A1BEBED6E00547187 /* FunWithPicker WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BEC3B7681BEBED6D00547187 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEC3B7781BEBED6E00547187 /* LaunchScreen.storyboard in Resources */,
+				BEC3B7751BEBED6E00547187 /* Assets.xcassets in Resources */,
+				BEC3B7731BEBED6D00547187 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEC3B77A1BEBED6E00547187 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEC3B7851BEBED6E00547187 /* Assets.xcassets in Resources */,
+				BEC3B7831BEBED6E00547187 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEC3B7891BEBED6E00547187 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEC3B7951BEBED6E00547187 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BEC3B7661BEBED6D00547187 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEC3B7701BEBED6D00547187 /* ViewController.swift in Sources */,
+				BEC3B76E1BEBED6D00547187 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEC3B7871BEBED6E00547187 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEC3B7931BEBED6E00547187 /* ExtensionDelegate.swift in Sources */,
+				BEC3B7911BEBED6E00547187 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BEC3B77F1BEBED6E00547187 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BEC3B77B1BEBED6E00547187 /* FunWithPicker WatchKit App */;
+			targetProxy = BEC3B77E1BEBED6E00547187 /* PBXContainerItemProxy */;
+		};
+		BEC3B78E1BEBED6E00547187 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BEC3B78A1BEBED6E00547187 /* FunWithPicker WatchKit Extension */;
+			targetProxy = BEC3B78D1BEBED6E00547187 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BEC3B7711BEBED6D00547187 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEC3B7721BEBED6D00547187 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BEC3B7761BEBED6E00547187 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEC3B7771BEBED6E00547187 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		BEC3B7811BEBED6E00547187 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEC3B7821BEBED6E00547187 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BEC3B7971BEBED6E00547187 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BEC3B7981BEBED6E00547187 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BEC3B79A1BEBED6E00547187 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "FunWithPicker WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BrentZerbe.FunWithPicker.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		BEC3B79B1BEBED6E00547187 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "FunWithPicker WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BrentZerbe.FunWithPicker.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		BEC3B79E1BEBED6E00547187 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = FunWithPicker_WatchKit_Extension;
+				INFOPLIST_FILE = "FunWithPicker WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = BrentZerbe.FunWithPicker.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		BEC3B79F1BEBED6E00547187 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = FunWithPicker_WatchKit_Extension;
+				INFOPLIST_FILE = "FunWithPicker WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = BrentZerbe.FunWithPicker.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		BEC3B7A21BEBED6E00547187 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FunWithPicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BrentZerbe.FunWithPicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BEC3B7A31BEBED6E00547187 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FunWithPicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BrentZerbe.FunWithPicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BEC3B7651BEBED6D00547187 /* Build configuration list for PBXProject "FunWithPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEC3B7971BEBED6E00547187 /* Debug */,
+				BEC3B7981BEBED6E00547187 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEC3B7991BEBED6E00547187 /* Build configuration list for PBXNativeTarget "FunWithPicker WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEC3B79A1BEBED6E00547187 /* Debug */,
+				BEC3B79B1BEBED6E00547187 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BEC3B79D1BEBED6E00547187 /* Build configuration list for PBXNativeTarget "FunWithPicker WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEC3B79E1BEBED6E00547187 /* Debug */,
+				BEC3B79F1BEBED6E00547187 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BEC3B7A11BEBED6E00547187 /* Build configuration list for PBXNativeTarget "FunWithPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEC3B7A21BEBED6E00547187 /* Debug */,
+				BEC3B7A31BEBED6E00547187 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BEC3B7621BEBED6D00547187 /* Project object */;
+}
