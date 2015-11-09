@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE40A8231BF051CE005BF573 /* Sofia-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = BE40A8221BF051CE005BF573 /* Sofia-Regular.otf */; };
+		BE40A8241BF051CE005BF573 /* Sofia-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = BE40A8221BF051CE005BF573 /* Sofia-Regular.otf */; };
 		BEC3B76E1BEBED6D00547187 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC3B76D1BEBED6D00547187 /* AppDelegate.swift */; };
 		BEC3B7701BEBED6D00547187 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC3B76F1BEBED6D00547187 /* ViewController.swift */; };
 		BEC3B7731BEBED6D00547187 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEC3B7711BEBED6D00547187 /* Main.storyboard */; };
@@ -64,6 +66,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		BE40A8221BF051CE005BF573 /* Sofia-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sofia-Regular.otf"; sourceTree = "<group>"; };
 		BEC3B76A1BEBED6D00547187 /* FunWithPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunWithPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEC3B76D1BEBED6D00547187 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BEC3B76F1BEBED6D00547187 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -136,6 +139,7 @@
 		BEC3B7801BEBED6E00547187 /* FunWithPicker WatchKit App */ = {
 			isa = PBXGroup;
 			children = (
+				BE40A8221BF051CE005BF573 /* Sofia-Regular.otf */,
 				BEC3B7811BEBED6E00547187 /* Interface.storyboard */,
 				BEC3B7841BEBED6E00547187 /* Assets.xcassets */,
 				BEC3B7861BEBED6E00547187 /* Info.plist */,
@@ -270,6 +274,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BEC3B7851BEBED6E00547187 /* Assets.xcassets in Resources */,
+				BE40A8231BF051CE005BF573 /* Sofia-Regular.otf in Resources */,
 				BEC3B7831BEBED6E00547187 /* Interface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -279,6 +284,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BEC3B7951BEBED6E00547187 /* Assets.xcassets in Resources */,
+				BE40A8241BF051CE005BF573 /* Sofia-Regular.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -530,6 +536,7 @@
 				BEC3B79B1BEBED6E00547187 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BEC3B79D1BEBED6E00547187 /* Build configuration list for PBXNativeTarget "FunWithPicker WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -538,6 +545,7 @@
 				BEC3B79F1BEBED6E00547187 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BEC3B7A11BEBED6E00547187 /* Build configuration list for PBXNativeTarget "FunWithPicker" */ = {
 			isa = XCConfigurationList;
@@ -546,6 +554,7 @@
 				BEC3B7A31BEBED6E00547187 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

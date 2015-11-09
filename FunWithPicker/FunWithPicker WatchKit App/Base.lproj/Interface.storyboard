@@ -4,6 +4,11 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="9019"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="Sofia-Regular.otf">
+            <string>Sofia-Regular</string>
+        </mutableArray>
+    </customFonts>
     <scenes>
         <!--Interface Controller-->
         <scene sceneID="aou-V4-d1y">
@@ -19,7 +24,9 @@
                                 </picker>
                             </items>
                         </group>
-                        <label alignment="center" verticalAlignment="bottom" text="Label" textAlignment="center" id="RZ3-N4-y1z"/>
+                        <label alignment="center" verticalAlignment="bottom" text="Label" textAlignment="center" id="RZ3-N4-y1z">
+                            <fontDescription key="font" name="Sofia-Regular" family="Sofia" pointSize="18"/>
+                        </label>
                     </items>
                     <connections>
                         <outlet property="numberPicker" destination="IsR-6J-UQ4" id="NHY-7Z-Z7y"/>
